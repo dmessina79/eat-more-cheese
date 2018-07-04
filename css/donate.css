@@ -20,6 +20,7 @@ h2 {
 
 .contactinfo {
     padding: 25px;
+    border: 1px solid red;
 }
 
 /*Billing Info CSS*/
