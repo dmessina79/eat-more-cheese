@@ -7,28 +7,45 @@ body {
     background-color: lightgrey;
 }
 
-h1 {
-    font-size: 50px;
-}
-
 h2 {
     font-size: 20px;
     padding-bottom: 15px;
 }
 
+.informationForm {
+    width: 75%;
+    align-content: center;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+
 /*Contact Info CSS*/
 
-.contactinfo {
+.contactInfo {
+    margin-top: 10px;
     padding: 25px;
-    border: 1px solid red;
+}
+
+.contactInfo, p {
+    padding-top: 5px;
+}
+
+.contactInfo, h2 {
+    padding-top: 10px;
 }
 
 /*Billing Info CSS*/
 
-.billinginfo {
+.billingInfo {
+    margin-top: 10px;
     padding: 25px;
 }
 
+.submitButton {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 

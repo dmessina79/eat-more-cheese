@@ -8,37 +8,48 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../css/donate.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/pages.css" />
     <script src="../js/main.js"></script>
 </head>
 <body>
-    <h1>Donate to Eat More Cheese</h1>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Blog</a></li> 
+            <li><a href="#">Gallery</a></li> 
+            <li><a href="#">Donate</a></li> 
+        </ul>
+    </nav>
+    <h1 class="main-header">Donate to Eat More Cheese</h1>
 
-
-    <div class="contactinfo">
-        <h2>Contact Information</h2>
-        <form id="contactfrm">
-            <p>First Name: <input type="text" name="fname"></p>
-            <p>Last Name: <input type="text" name="lname"></p>
-            <p>Street Address: <input type="text" name="saddress"></p>
-            <p>City: <input type="text" name="city"></p>
-            <p>State: <input type="text" name="state"><span> Zip: <input type="text" name="zip"></p>
-            <p>Phone Number: <input type"text" name="phonenumber"> </p>
-        </form>
-    </div>
-
-    <div class="billinginfo">
-        <h2>Billing Information</h2>
-            <form id="billingfrm">
-                <p>Credit Card Number: <input type="text" name="ccnumber"></p>
-                <p>Expiration Date: <input type="text" name="expdate"> (ex. 01/2025)</p>
-                <p>Security Code: <input type="text" name="seccode"></p>
+    <div class="informationForm">
+        <div class="contactInfo">
+            <h2>Contact Information</h2>
+            <form id="contactfrm">
+                <p>First Name: <input type="text" name="fname"></p>
+                <p>Last Name: <input type="text" name="lname"></p>
+                <p>Street Address: <input type="text" name="saddress"></p>
+                <p>City: <input type="text" name="city"></p>
+                <p>State: <input type="text" name="state"><span> Zip: <input type="text" name="zip"></p>
+                <p>Phone Number: <input type"text" name="phonenumber"> </p>
             </form>
-    </div>
+        </div>
 
-    <div class="submitbtn">
-        <input type="button" onclick="frmfunction()" value="Submit";>
-    </div>
+        <div class="billingInfo">
+            <h2>Billing Information</h2>
+                <form id="billingfrm">
+                    <p>Credit Card Number: <input type="text" name="ccnumber"></p>
+                    <p>Expiration Date: <input type="text" name="expdate"> (ex. 01/2025)</p>
+                    <p>Security Code: <input type="text" name="seccode"></p>
+                </form>
+        </div>
 
+        <div class="submitButton">
+            <input type="button" onclick="frmfunction()" value="Submit";>
+        </div>
+    </div>
 
 
 
