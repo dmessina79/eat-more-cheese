@@ -39,6 +39,11 @@ aside {
     text-align: center;
 }
 
+.img img {
+    max-width: 100%;
+    min-width: 400px;
+}
+
 .main-content {
     width: 70%;
     margin: 0px auto;
